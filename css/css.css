@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    color: rgb(140, 197, 64);
+    height: 273px;
+    width: 100%;
+    background-image: url("../img/ai-changing-our-world.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 210%;
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.57);
+    height: 103px;
+    width: 100%;
+}
+
+.logoIMG{
+    width: 78px;
+    margin-top: 7px;
+    margin-left: 17px;
+    margin-right: 10px;
+    float: left;
+}
+
+.logoName{
+    margin: 0;
+    padding: 0;
+    margin-top: 13px;
+    margin-right: 36px;
+    margin-left: 4px;
+    font-size: 61px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.navUL{
+    display: block;
+    list-style: none;
+    margin: 0;
+}
+
+.navLI{
+    float: left;
+    padding-right: 65px;
+    font-size: 41px;
+    padding-top: 33px;
+}
+
+.navLI.aboutUs{
+    padding-right: 0;
+}
+
+.navLink, .buttonLink{
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.pageText{
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pageTexth2{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+    
+}
+
+.item{
+    width: 310px;
+}
+
+.item.hardware{
+    width: 580px;
+}
+
+.itemSection{
+    margin-top: 26px;
+    width: 1065px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemSection.hardware{
+    justify-content: center;
+}
+
+.itemIMG{
+    width: 220px;
+}
+
+.itemIMG.wireAndBoard{
+    width: 235px;
+}
+
+.itemIMG.hardware{
+    width: 178px;
+    margin-right: 35px;
+}
+
+.itemDESC.hardwareTitle{
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.itemLI.hardware{
+    margin-left: 59px;
+}
+
+.itemUL.index{
+    padding-left: 15px;
+}
+
+.part1Hardware{
+    float: left;
+}
+
+.part2Hardware{
+   padding-left: 130px;
+   font-size: 14.3745px;
+}
+
+.buttonBox{
+    width: unset;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemButton{
+    font-family: Arial;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: rgb(68,114,196);
+    color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: black;
+    font-size: 16px;
+}
+
+.itemButton.buyNow{
+    margin-top: 3px;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 26px;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+    background-image: linear-gradient(to top, rgb(255,104,0), rgb(253,195,38), rgb(255,192,19));
+}
+
+.itemButton.buyNow.hardware{
+    padding-left: 22px;
+    padding-right: 22px;
+    height: 28px;
+    margin-top: 0.7px;
+}
+
+.itemButton.hardware{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.buttonBox.secondItem{
+    margin-top: 74.81132px;
+}
+
+.buttonBox.thirdItem{
+    margin-top: 196.6px; 
+}
+
+.buttonBox.hardware{
+    width: unset;
+}
+
+
+.pageTexth2.hardware, .pageTexth2.software{
+    margin-top: 60px;   
+    font-size: 36px;
+}
+
+
+.itemSection.software{
+    flex-direction: column;
+    width: 1195px;
+}
+
+.item.software{
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    height: 158px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgSoft{
+    width: 250px;
+    margin: 11px 0 0 24px;
+}
+
+.softwareTitle{
+    margin: 0 0 0 24px;
+}
+
+.softwareVersion{
+    margin-top: 35px;
+}
+
+.part1Soft{
+    width: 385px;
+}
+
+.part2Soft{
+    width: 550px;
+    margin-right: 15px;
+    padding: 13px;
+}
+
+.itemButton.software{
+    margin-top: 30px;
+    margin-left: 25%;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.pageTexth2.aboutUs{
+    font-size: 46px;
+    margin-top: 45px;
+}
+
+
+.itemSection.aboutUs{
+    margin-top: 45px;
+    width: 900px;
+    text-align: center;
+}
